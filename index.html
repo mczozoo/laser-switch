@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Laser Switch</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="game-shell">
+      <canvas id="gameCanvas" width="360" height="640" aria-label="Laser Switch playfield"></canvas>
+      <section class="hud">
+        <div class="hud__score">
+          <span>Score:</span>
+          <span id="scoreValue">0</span>
+        </div>
+        <div class="hud__best">
+          <span>Best:</span>
+          <span id="bestValue">0</span>
+        </div>
+        <div id="message" class="hud__message">Tap to Start</div>
+      </section>
+    </main>
+    <script src="main.js" type="module"></script>
+  </body>
+</html>
